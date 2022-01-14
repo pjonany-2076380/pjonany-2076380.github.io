@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title> PJ's Awesome Website </title>
+    </head>
+    <body>
+        <h1>header</h1>
+        <h2>this is header 2</h2>
+        <p>paragraph</p>
+        
+        <ul>
+            <li> <a href = "https://www.facebook.com/">Facebook</a> </li>
+            <li> <a href = "http://winhost6.ischool.uw.edu/gclass/">gClass</a> </li>
+            <li> <a href = "https://github.com/">GitHub</a> </li>
+            <li> <a href = "https://www.google.com/">Google</a> </li>
+            <li> <a href = "https://www.youtube.com/">Youtube</a> </li>  
+        </ul>
+
+        <h2> My favorite images </h2>
+        <img src="https://paintbynumberscanvas.com/wp-content/uploads/2020/09/blue-frog-paint-by-numbers.jpg" title="Blue Frog" style="width:200px; height:200px; margin:5px">
+        <img src="https://animalsplanet.net/wp-content/uploads/2018/12/Green-frog.jpg" title="Green Frog" style="width:200px; height:200px; margin:5px">
+    </body>
+
+    <br>
+
+    <thead>MY COOL TABLE</thead>
+    <table style = "border: 1px solid black">  
+        <tr style = "border: 1px solid black">
+          <td style = "border: 1px solid black">1</td>
+          <td style = "border: 1px solid black">2</td>
+          <td style = "border: 1px solid black">3</td>
+        </tr>
+        
+        <tr style = "border: 1px solid black">
+            <td style = "border: 1px solid black">4</td>
+            <td style = "border: 1px solid black">5</td>
+            <td style = "border: 1px solid black">6</td>
+          </tr>
+          <tr style = "border: 1px solid black">
+            <td style = "border: 1px solid black">7</td>
+            <td style = "border: 1px solid black">8</td>
+            <td style = "border: 1px solid black">9</td>
+          </tr>
+      </table>
+    <br>
+    <button type="button">Click me absolutely nothing in return!</button>
+      <br>
+      <p>Look at this thing I drew</p>
+      <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(20, 20, 75, 50);
+        //Turn transparency on
+        ctx.globalAlpha = 0.2;
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 75, 50);
+        ctx.fillStyle = "green";
+        ctx.fillRect(80, 80, 75, 50);
+        </script>
+    <dialog open>This is an open dialog window, I still don't know what this does but it looks useful</dialog>
+    
+    <br>
+
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+</html>
