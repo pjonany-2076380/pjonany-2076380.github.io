@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title> PJ's Awesome Website </title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="anExternal.css" />
+
+    <body style = "background-color: skyblue;">
+        
+        <h1>here are some random paragraphs</h1>
+        <h2>They rushed out the door, grabbing anything and everything they could think of they might need. There was no time to double-check to make sure they weren't leaving something important behind. Everything was thrown into the car and they sped off. Thirty minutes later they were safe and that was when it dawned on them that they had forgotten the most important thing of all.
+        </h2>
+        <p> It all started with the computer. Had he known what was to follow, he would have never logged on that day. But the truth was there was no way to know what was about to happen. So Dave pressed the start button, the computer booted up, the screen came alive, and everything Dave knew to be true no longer was.
+        </p>
+        
+        <ul>
+            <li> <a href = "https://www.facebook.com/">Facebook</a> </li>
+            <li> <a href = "http://winhost6.ischool.uw.edu/gclass/">gClass</a> </li>
+            <li> <a href = "https://github.com/">GitHub</a> </li>
+            <li> <a href = "https://www.google.com/">Google</a> </li>
+            <li> <a href = "https://www.youtube.com/">Youtube</a> </li>  
+        </ul>
+
+        <h2> My favorite images </h2>
+        <img src="https://paintbynumberscanvas.com/wp-content/uploads/2020/09/blue-frog-paint-by-numbers.jpg" title="Blue Frog" style="width:50px; height:50px; margin:5px">
+        <img src="https://animalsplanet.net/wp-content/uploads/2018/12/Green-frog.jpg" title="Green Frog" style="width:50px; height:50px; margin:5px">
+    
+
+    <br>
+
+
+    <thead>MY COOL TABLE</thead>
+    <table style = "border: 1px solid black">  
+        <tr style = "border: 1px solid black">
+          <td style = "border: 1px solid black">1</td>
+          <td style = "border: 1px solid black">2</td>
+          <td style = "border: 1px solid black">3</td>
+        </tr>
+        
+        <tr style = "border: 1px solid black">
+            <td style = "border: 1px solid black">4</td>
+            <td style = "border: 1px solid black">5</td>
+            <td style = "border: 1px solid black">6</td>
+          </tr>
+          <tr style = "border: 1px solid black">
+            <td style = "border: 1px solid black">7</td>
+            <td style = "border: 1px solid black">8</td>
+            <td style = "border: 1px solid black">9</td>
+          </tr>
+      </table>
+    <br>
+    <button type="button">Click me absolutely nothing in return!</button>
+      <br>
+      <p>Look at this thing I drew</p>
+      <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(20, 20, 75, 50);
+        //Turn transparency on
+        ctx.globalAlpha = 0.2;
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 75, 50);
+        ctx.fillStyle = "green";
+        ctx.fillRect(80, 80, 75, 50);
+        </script>
+    <dialog open>This is an open dialog window, I still don't know what this does but it looks useful</dialog>
+    
+    <br>
+
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+    </body>
+</html>
